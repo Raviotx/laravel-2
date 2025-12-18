@@ -1,23 +1,28 @@
-# Clone o repositório
-git clone https://github.com/seu-usuario/nome-do-repo.git
 
-# Entre na pasta
-cd nome-do-repo
+# projeto-laravel-2
 
-# Instale as dependências
-composer install
 
-# Copie o .env
-cp .env.example .env  # ou copie manualmente
+## Funcionalidades
 
-# Gere a chave
-php artisan key:generate
+- Criar tarefas
+- Listar tarefas
+- Editar tarefas
+- Excluir tarefas
 
-# Crie o banco de dados SQLite
-touch database/database.sqlite  # ou crie manualmente
+---
 
-# Rode as migrations
-php artisan migrate
+## Tecnologias utilizadas
 
-# Inicie o servidor
-php artisan serve
+- PHP 8+
+- Laravel
+- SQLite
+- Blade
+- Composer
+
+---
+
+## Como executar o projeto
+
+### 1. Clonar o repositório
+```bash
+git clone https://github.com/Raviotx/projeto-laravel2.git
